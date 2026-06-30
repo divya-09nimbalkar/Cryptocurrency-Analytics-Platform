@@ -2,54 +2,89 @@
 ---
 
 ```markdown
-# 💹 Cryptocurrency Analytics Platform
+#  Cryptocurrency Analytics Platform
 
 A data engineering project for analyzing cryptocurrency datasets.  
 Built with **Python**, designed for extensibility and clean workflows.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```
 Cryptocurrency_Analytics_Platform/
+
 │── .gitignore
+
 │── LICENSE
+
 │── pyproject.toml
+
 │── README.md
+
 │── requirements.txt
+
 │
+
 ├── data/
+
 │   ├── raw/          # raw datasets
+
 │   └── processed/    # cleaned datasets
+
 │
+
 ├── docs/
+
 │   ├── api.md
+
 │   ├── architecture.md
+
 │   ├── changelog.md
+
 │   └── usage.md
+
 │
+
 ├── models/
+
 │   ├── placeholder_model.py
+
 │   └── README.md
+
 │
+
 ├── notebooks/
+
 │   └── exploration.ipynb
+
 │
+
 ├── src/
+
 │   ├── analytics.py
+
 │   ├── data_loader.py
+
 │   ├── main.py
+
 │   ├── utils.py
+
 │   └── visualization.py
+
 │
+
 └── tests/
+
 └── test_main.py
 
+
+
 ```
+
 
 ---
 
-## 🚀 Features
+##  Features
 - Organized data pipeline (`data/raw` → `data/processed`)
 - Modular codebase (`src/`, `models/`)
 - Jupyter notebooks for exploration
@@ -58,7 +93,7 @@ Cryptocurrency_Analytics_Platform/
 
 ---
 
-## 📦 Installation
+##  Installation
 Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/your-username/Cryptocurrency_Analytics_Platform.git
@@ -68,7 +103,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+##  Usage
 Run the main pipeline:
 ```bash
 python main.py
@@ -81,7 +116,7 @@ jupyter notebook notebooks/exploration.ipynb
 
 ---
 
-## 🧪 Testing
+##  Testing
 Run unit tests with:
 ```bash
 pytest tests/
@@ -89,7 +124,7 @@ pytest tests/
 
 ---
 
-## 📊 Example Outputs
+##  Example Outputs
 - **Analysis Results**
   ```text
   {'rows': 1000,
@@ -105,21 +140,15 @@ pytest tests/
 
 ---
 
-## 📈 Future Enhancements
-- Integrate live crypto APIs (CoinGecko, Binance, etc.)
-- Add advanced analytics (moving averages, volatility, seasonal trends)
-- Build ML models for **price prediction**
-- Deploy dashboards with **Streamlit** or **Dash**
-
 ---
 
-## 🤝 Contributing
+##  Contributing
 Pull requests are welcome!  
 For major changes, please open an issue first to discuss what you’d like to change.
 
 ---
 
-## 📜 License
+##  License
 This project is licensed under the MIT License — see the `LICENSE` file for details.
 ```
 
