@@ -7,10 +7,10 @@
 A data engineering project for analyzing cryptocurrency datasets.  
 Built with **Python**, designed for extensibility and clean workflows.
 
----
+
 
 ##  Project Structure
-```
+
 Cryptocurrency_Analytics_Platform/
 
 │── .gitignore
